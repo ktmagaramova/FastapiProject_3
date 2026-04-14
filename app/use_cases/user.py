@@ -8,7 +8,7 @@ from app.schemas import (
     LocationCreate, LocationRead,
     CommentCreate, CommentRead
 )
-from app.database import database
+from app.infrastructure.database import database
 from datetime import datetime
 
 router = APIRouter()
