@@ -21,5 +21,3 @@ async def run() -> None:
 if __name__ == "__main__":
     loop = asyncio.get_event_loop()
     loop.run_until_complete(run())
-
-#Переделать: sqlite:///./app/db.sqlite3 в скрытый файл, разнести в разные файлы из base
